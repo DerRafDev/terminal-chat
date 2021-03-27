@@ -1,5 +1,6 @@
 ### Terminal Chat
 
+Using Socket
 
 ## Techologies
 
