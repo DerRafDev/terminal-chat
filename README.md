@@ -15,10 +15,12 @@ The objective of this application is for learning the Blessed API and also to le
 
 ## How to Run in your Terminal 👩🏻‍💻
 
-To run in your terminal, you must:
-
->To start run in client: node index.js --username [Choose your name] --room [Choose your room name] --hostUri http://localhost:9898
+To run in your terminal, you have first enter in the server:
 >To start run in server: npm start
+
+Then, you have to enter in client:
+>To start run in client: node index.js --username [Choose your name] --room [Choose your room name] --hostUri http://localhost:9898
+
 
 ## Result 🖥️
 
