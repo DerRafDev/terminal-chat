@@ -22,7 +22,7 @@ To run in your terminal, you must:
 
 ## Result 🖥️
 
-![alt text](https://github.com/DerRafDev/terminal-chat/blob/main/result.png)
+![alt text](https://github.com/DerRafDev/terminal-chat/blob/master/result.png)
 
 ## Contact 📞
 Created by [@DerRaf](https://www.linkedin.com/in/rafael-sordi/) - feel free to contact me!
