@@ -21,6 +21,22 @@ export default class EventManager {
         this.#updateUsersComponent()
     }
 
+    disconnectUser(user) {
+        const { userName, id} = user
+        this.#allUsers.delete(id)
+
+        this.#updateActivityLogComponent(`${userName} left!`)
+        this.#updateUsersComponent()
+    }
+
+    message(message) {
+        //this is for showing the message
+        this.#emitComponentUpdate(
+            constants.events.app.MESSAGE_RECEIVED,
+            message
+        )
+    }
+
     newUserConnected(message) {
         const user = message
         this.#allUsers.set(user.id, user.userName)

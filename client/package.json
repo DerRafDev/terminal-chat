@@ -8,6 +8,7 @@
     "user01": "node index.js --username derRaf --room room01 --hostUri http://localhost:9898",
     "user02": "node index.js --username derRaf2 --room room01 --hostUri http://localhost:9898",
     "user03": "node index.js --username derRaf3 --room room01 --hostUri http://localhost:9898",
+    "user04": "node index.js --username derRaf4 --room room01 --hostUri http://localhost:9898",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
